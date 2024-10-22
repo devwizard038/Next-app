@@ -33,7 +33,7 @@ function Education() {
         </div>
       </div>
 
-      <div className="py-8">
+      <div className="py-2">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-3/4 h-3/4">
@@ -42,7 +42,7 @@ function Education() {
           </div>
 
           <div>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 py-24">
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>

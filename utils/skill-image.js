@@ -72,11 +72,22 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import aspnet from '/public/svg/skills/aspnet.svg';
+import dotnet from '/public/svg/skills/dotnet.svg';
+import blazor from '/public/svg/skills/blazor.svg';
+import mssql from '/public/svg/skills/mssql.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'mssql':
+      return mssql;
+    case 'blazor':
+      return blazor;
+    case '.net':
+      return dotnet;
+    case 'asp.net':
+      return aspnet;
     case 'gcp':
       return gcp;
     case 'html':

@@ -6,9 +6,9 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
+        name: 'Radisson Hotel Management App',
+        description: "I worked as a Backend developer for this project. I implemented complex logic in the hotel management system and developed the booking system and membership features. My work focused on ensuring a seamless experience for users booking rooms and managing their memberships, leveraging the power of ASP.NET Core for robust backend processing.",
+        tools: ['ASP.NET Core', 'MS SQL', 'Entity Framework', 'Visual Studio', 'Git', 'Azure'],
         role: 'Backend Developer',
         code: '',
         demo: '',
@@ -16,9 +16,9 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Team System App',
+        description: 'As a C# Full-Stack Developer, I contributed to the development of the TeamSystem website. My role involved implementing various features using ASP.NET for the backend, ensuring a robust and scalable infrastructure. On the frontend, I utilized Telerik controls to create a rich and responsive user interface.',
+        tools: ['ASP.NET Core', 'Telerik UI', "AngularJS", "Bootstrap", "MS SQL", "Visual Studio", "Git", "Jenkins"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
@@ -26,24 +26,14 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'deVere Group App',
+        description: 'My primary responsibility was backend development using ASP.NET Core, ensuring robust and scalable server-side functionality. I also contributed to the frontend with Angular.js, creating a seamless user experience. This project highlights my expertise in full-stack development and my ability to integrate complex financial services into a user-friendly web platform.',
+        tools: ['ASP.NET Core', 'AngularJS', 'Bootstrap', 'MS SQL', 'Git', 'Azure'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
         image: realEstate,
     },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
 ];
 
 

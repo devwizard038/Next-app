@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio of Gustavo Marcos - Software Developer",
   description:
-    "This is the portfolio of Gustavo Marcos. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is Gustavo Marcos. I am a proficient full-stack developer specializing in C# and ASP.NET , boasting over 5 years of practical experience across various sectors including Fintech, e-commerce, management, and education. My expertise lies not only in the C# programming language but also in leveraging web frameworks like ASP.NET and Blazor, coupled with proficiency in utilizing the Azure platform. I thrive in team settings, valuing clear communication as a cornerstone for enhanced understanding and collaboration.",
 };
 
 export default function RootLayout({ children }) {
